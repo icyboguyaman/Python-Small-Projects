@@ -1,0 +1,62 @@
+import random
+
+# Define a list of affirmations
+affirmations = [
+    "I am worthy of love and respect.",
+    "I am capable of achieving my goals.",
+    "I choose to focus on the positive.",
+    "I am grateful for all that I have.",
+    "I am confident and strong.",
+    "I trust the journey of my life.",
+    "I am surrounded by love and support.",
+    "I am worthy of success and happiness.",
+    "I am enough, just as I am.",
+    "I believe in myself and my abilities.",
+    "I am creating a life that I love.",
+    "I am in charge of my own happiness.",
+    "I am worthy of abundance and prosperity.",
+    "I am kind and compassionate towards myself.",
+    "I am brave and courageous.",
+    "I am free to be myself.",
+    "I am capable of overcoming any challenge.",
+    "I am blessed with abundance and joy.",
+    "I am grateful for my unique talents and gifts.",
+    "I am worthy of respect and admiration.",
+    "I am loved and valued.",
+    "I am open to new opportunities and experiences.",
+    "I trust in the universe to guide me.",
+    "I am at peace with who I am.",
+    "I am surrounded by positivity and optimism.",
+    "I am making progress towards my goals.",
+    "I am confident in my decisions.",
+    "I am deserving of love and happiness.",
+    "I am proud of myself and my accomplishments.",
+    "I am worthy of all the good things life has to offer.",
+    "I am in control of my thoughts and emotions.",
+    "I am surrounded by abundance and prosperity.",
+    "I am grateful for the small things in life.",
+    "I am open to receiving love and support.",
+    "I am capable of achieving anything I set my mind to.",
+    "I am deserving of respect and admiration.",
+    "I am surrounded by positivity and optimism.",
+    "I am making progress every day.",
+    "I am worthy of self-care and self-love.",
+    "I am blessed with abundance and prosperity.",
+    "I am grateful for my unique perspective on the world.",
+    "I am surrounded by positive energy and love.",
+    "I am creating a life that aligns with my values.",
+    "I am confident in my abilities and strengths.",
+    "I am worthy of love and belonging.",
+    "I am surrounded by beauty and inspiration.",
+    "I am free to be myself and express my true feelings.",
+    "I am capable of overcoming any obstacle.",
+    "I am grateful for the people in my life who support me.",
+    "I am worthy of respect and appreciation.",
+    "I am making a positive impact on the world.",
+]
+
+# Select a random affirmation from the list
+random_affirmation = random.choice(affirmations)
+
+# Print the random affirmation to the console
+print(random_affirmation)
